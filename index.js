@@ -74,7 +74,7 @@ const truth = JSON.parse(fs.readFileSync('./database/truth.json'))
 const dare = JSON.parse(fs.readFileSync('./database/dare.json'))
 /*let prefix = _chats.match(prefixRegEx) ? prefixRegEx.exec(_chats)[0] : "";
     body =*/
-    // by Xrutz Ganz
+    // by-Lonely👾
  /// image ///
 const iye = fs.readFileSync('./stik/thumb.jpg')
 const asw1 =('https://g.top4top.io/p_21023y5wu0.jpg')
@@ -110,15 +110,15 @@ readPc = false;
 autovn = false;
 autoketik = false;
 prefixStatus = true;
-targetpc = "6282279915237";
-owner = "6282279915237";
-namabot = "Selfbot Wa";
-fakeyoi = "L E X 4 Y O U";
-HunterApi = "Ikyy69",
-valkey = "rivalgans",
+targetpc = "6285876648286";
+owner = "6285876648286";
+namabot = "lonely-botz👾";
+fakeyoi = "L O N E L Y 👾";
+HunterApi = "Lonely69",
+valkey = "lonelygans",
 dapapi = "itsmevall",
-nomorowner1 = "@6282279915237";
-fake = `© 𝑳𝒆𝒙𝒙𝒚 𝑶𝒇𝒇𝒊𝒄𝒊𝒂𝒍`;
+nomorowner1 = "@6285876648286";
+fake = `lonely-botz👾`;
 thumb = fs.readFileSync("./stik/thumb.jpg");
 numbernye = "0";
 waktu = "-";
@@ -279,7 +279,7 @@ await itsmevall.updatePresence(from, Presence.composing)
     // const isSelfNumber = config.NomorSELF
     // const isOwner = sender.id === isSelfNumber
     const totalchat = await itsmevall.chats.all();
-    const ownerNumber = [`6282279915237@s.whatsapp.net`]
+    const ownerNumber = [`6285876648286@s.whatsapp.net`]
     const m = simple.smsg(itsmevall, mek);
     const groupMetadata = isGroup ? await itsmevall.groupMetadata(from) : "";
     const groupName = isGroup ? groupMetadata.subject : "";
@@ -331,7 +331,7 @@ await itsmevall.updatePresence(from, Presence.composing)
      
     //MESS
     mess = {
-      wait: "➤ *Sedang Proses Kak!*",
+      wait: "➤ *Sedang Proses Kak⏳!*",
       success: "➤ *Berhasil dilakukan!*",
       wrongFormat: "➤ *Format tidak ada di Menu!*",
       error: {
